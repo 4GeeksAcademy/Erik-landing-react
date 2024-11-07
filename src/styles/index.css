@@ -3,9 +3,14 @@ body {
     background-color: rgba(8, 8, 8, 0.911);
 }
 
-.container {
+.container-map {
+    max-width: 1600px;
+}
+
+.container-jumbo {
     max-width: 1700px;
 }
+
 .card{
     max-width: 310px;
 }
@@ -38,11 +43,28 @@ body {
     max-width: 1000px;
 }
 
-.height {
+.height-card {
     height: 180px;
 }
 
 .logo {
-    max-width: 110px;
-    max-height: 110px;
+    max-width: 115px;
+    max-height: 115px;
+}
+.height-footer{
+    height: 100px;
+}
+
+.image-l{
+    transform: scaleX(-1);
+    max-width: 150px;
+    max-height: 150px;
+}
+.image-r{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.pad {
+    padding-top: 40px;
 }

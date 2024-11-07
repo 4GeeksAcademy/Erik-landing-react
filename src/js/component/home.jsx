@@ -95,13 +95,13 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <div className="container" >
+            <div className="container-jumbo mx-auto" >
             <Jumbotron />
             </div>
             
             <Spacer />
            
-            <div className="container d-flex py-3 justify-content-between">
+            <div className="container-map mx-auto d-flex py-3 justify-content-between">
                 {
                 monsters.map((item, index) => (
                     <Card image = {item.image} title = {item.title} description = {item.description} />
@@ -111,7 +111,7 @@ const Home = () => {
 
             <Spacerh />
 
-            <div className="container d-flex py-3 justify-content-between">
+            <div className="container-map mx-auto d-flex py-3 justify-content-around">
                 {
                 hunters.map((item, index) => (
                     <Clases image = {item.image} title = {item.title} description = {item.description} />
