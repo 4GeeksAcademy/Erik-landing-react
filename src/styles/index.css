@@ -1,12 +1,48 @@
-
-/* 
-
-    You can write your own styles here...
+body {
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    background-color: rgba(8, 8, 8, 0.911);
+}
 
-*/
+.container {
+    max-width: 1700px;
+}
+.card{
+    max-width: 310px;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(33, 37, 41);
+    margin-top: 50px;
+    position-anchor: bottom;
+    bottom: 0;
+    z-index: auto;
+    width: 100%;
+}
+
+
+.menu-fix{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.margin-j {
+    margin-top: 110px;
+    margin-bottom: 24px;
+
+}
+
+.lenght {
+    max-width: 1000px;
+}
+
+.height {
+    height: 180px;
+}
+
+.logo {
+    max-width: 110px;
+    max-height: 110px;
+}
