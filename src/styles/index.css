@@ -68,3 +68,17 @@ body {
 .pad {
     padding-top: 40px;
 }
+
+.container-flex{
+    display: flex;
+}
+
+@media screen and (max-width:1440px){
+    .card-responsive{
+        display: inline-block;
+        margin-top: 10px;
+        margin-inline-start:50px;
+         }   
+         
+
+}

@@ -101,7 +101,7 @@ const Home = () => {
             
             <Spacer />
            
-            <div className="container-map mx-auto d-flex py-3 justify-content-between">
+            <div className="card-responsive container-flex container-map mx-auto py-3 justify-content-between">
                 {
                 monsters.map((item, index) => (
                     <Card image = {item.image} title = {item.title} description = {item.description} />
@@ -111,7 +111,7 @@ const Home = () => {
 
             <Spacerh />
 
-            <div className="container-map mx-auto d-flex py-3 justify-content-around">
+            <div className="card-responsive container-flex container-map mx-auto py-3 justify-content-between">
                 {
                 hunters.map((item, index) => (
                     <Clases image = {item.image} title = {item.title} description = {item.description} />
