@@ -13,8 +13,6 @@ const Jumbotron = () => {
     </div>
         )
 
-
-
 }
 
 export default Jumbotron

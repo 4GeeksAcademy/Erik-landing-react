@@ -36,6 +36,8 @@ body {
 .margin-j {
     margin-top: 110px;
     margin-bottom: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
 
 }
 
@@ -53,6 +55,9 @@ body {
 }
 .height-footer{
     height: 100px;
+    justify-content: center;
+        width: 100%;
+        text-align: center;
 }
 
 .image-l{
@@ -73,12 +78,21 @@ body {
     display: flex;
 }
 
-@media screen and (max-width:1440px){
+@media screen and (max-width:1439px){
     .card-responsive{
         display: inline-block;
         margin-top: 10px;
-        margin-inline-start:50px;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 10px;
+   
          }   
-         
+        .card-in{
+            margin:auto; 
+            justify-content: center;
+        }
+    
 
 }
+

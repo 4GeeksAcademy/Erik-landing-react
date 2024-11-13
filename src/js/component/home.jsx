@@ -118,8 +118,9 @@ const Home = () => {
                 ))
             }
             </div>
-
-            <Footer />
+            <div className="d-sm-flex">
+           <Footer />
+            </div>
         </>
       
     )

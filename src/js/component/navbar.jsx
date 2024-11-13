@@ -9,7 +9,7 @@ const Navbar = () => {
 			<div className="container-fluid justify-content-between">
 				<div className="d-flex">
 					<div><img  className="logo" src={logo} /></div>
-				<p className="navbar-brand text-light my-1 font-monospace fs-5">MONSTER HUNTER RISE</p>
+				<p className="navbar-brand text-light my-1 font-monospace fs-6">MONSTER HUNTER RISE</p>
 				<button className="navbar-toggler text-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon text-light"></span>
 				</button>
